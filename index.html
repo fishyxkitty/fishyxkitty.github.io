@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fishy x Kitty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main-game">
+    <div class="window-alert" id="window1">
+        <div class="icons-bar">
+            <img src="img/Artboard%205%20copy%202.png" alt="" class="window-alert-icon">
+            <img src="img/Artboard%205%20copy.png" alt="" class="window-alert-icon">
+            <img src="img/Artboard%205.png" alt="" class="window-alert-icon">
+        </div>
+        <div class="window-alert-titles">
+            <h1>welcome to</h1>
+            <h2  class="ml9">
+                <span class="text-wrapper">
+                    <span class="letters">fishy x kitty game</span>
+                </span>
+            </h2>
+            <div class="window-alert-btns">
+                <button class="btn" onclick="startGame()">start</button>
+                <button class="btn p2" onclick="openSettings()">settings</button>
+            </div>
+        </div>
+      <img src="img/Artboard%203.png" alt="" class="window-alert-img">
+    </div>
+    <div class="settings" id="settings">
+        <div id="app">
+
+        </div>
+    </div>
+    <div class="scene1" id="scene1">
+        <div id="textbox">This Fish want to play with the cat, help her to get out</div>
+        <img id="scene1-img1" src="img/s3.png">
+        <img id="scene1-img2" src="img/S2.png">
+        <img id="scene1-img3" src="img/S0.png">
+        <img id="pngfish" src="img/PngFish.png">
+    </div>
+    <div class="scene2" id="scene2">
+        <section>
+            <h2 id="score">0</h2>
+            <img class="heart heart1" id="heart" src="img/red-heart.png" onclick="eat()">
+            <img class="heart heart2" id="heart2" src="img/red-heart.png" onclick="eat2()">
+            <img class="heart heart3" id="heart3" src="img/red-heart.png" onclick="eat3()">
+            <img class="heart heart4" id="heart4" src="img/red-heart.png" onclick="eat4()">
+            <img class="heart heart5" id="heart5" src="img/red-heart.png" onclick="eat5()">
+            <img class="heart heart6" id="heart6" src="img/red-heart.png" onclick="eat6()">
+        </section>
+    </div>
+</div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="javascript.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
